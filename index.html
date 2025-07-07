@@ -4,38 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Spotify for Artists</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-
-  <!-------------------------------------------- Header ----------------------------------------------------->
+  <!-- Header -->
   <header class="main-header">
-    <div class="logo">
-      <img src="./Spotify logo.png" alt="Spotify Logo" />
-    </div>
+  <div class="logo">
+  <img src="./logo.png" alt="Spotify Logo" />
+  <span>Spotify</span>
+</div>
 
 
-   <!------------------------------------------ links in index.html-------------------------------------------->
-<nav class="nav-links">
-    <a href="Get started.html">Get started</a>
-    <a href="features.html">Features</a>
-    <a href="Resources.html">Resources</a>
-    <a href="Help.html">Help</a>
-  </nav>
-  
+    <nav class="nav-links">
+      <a href="Get started.html">Get started</a>
+      <a href="features.html">Features</a>
+      <a href="Resources.html">Resources</a>
+      <a href="Help.html">Help</a>
+    </nav>
 
     <div class="header-buttons">
       <span><i class="fa-solid fa-globe"></i></span>
       <button class="login-btn">Log in</button>
       <button class="access-btn">Get access</button>
-      
     </div>
   </header>
 
-
-  <!------------------------------------------ Hero Section ------------------------------------------------->
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h1>Get your music <br />on Spotify</h1>
@@ -46,9 +41,7 @@
     </div>
   </section>
 
-
-  
-  <!--------------------------------- access account Section class------------------------------------------------>
+  <!-- Access Account Section -->
   <section class="access-account">
     <div class="access-wrapper">
       <div class="access-text">
@@ -58,45 +51,74 @@
       <button>Access profile</button>
     </div>
   </section>
-  
 
+  <!-- Distributor Section -->
+  <section class="distributor-section">
+    <div class="distributor-left">
+      <img src="./9.webp" alt="Distributor Layout" />
+    </div>
+    <div class="distributor-right">
+      <div class="step-number">1</div>
+      <h2>Choose a distributor</h2>
+      <p>Music gets uploaded to Spotify via a distributor. For a fee or commission, distributors will handle the licensing and distribution to Spotify and other streaming services, and pay you royalties when listeners stream.</p>
+      <p>Check out our directory for our preferred and recommended providers:</p>
+      <button class="browse-btn">Browse directory</button>
+    </div>
+  </section>
 
-    <!------------------------------------- Distributor Section-------------------------------------------------------->
+  <!-- Upload Music Section -->
+  <section class="upload-section">
+    <div class="upload-left">
+      <div class="step-number">2</div>
+      <h2>Upload your music</h2>
+      <p>Make sure your music is release-ready before uploading via your distributor.</p>
+      <ul>
+        <li><span><i class="fa-solid fa-circle-check"></i></span><a href="#">Export the highest quality lossless files</a> of your music and follow your chosen distributor’s guidelines for uploading.</li>
+        <li><span><i class="fa-solid fa-circle-check"></i></span><a href="#">Provide your metadata</a>: album title, credits, release date, etc.</li>
+        <li><span><i class="fa-solid fa-circle-check"></i></span><a href="#">Upload cover art</a> for your release.</li>
+      </ul>
+    </div>
+    <div class="upload-right">
+      <img src="./10.jpg" alt="Upload Your Music" />
+    </div>
+  </section>
 
-    <section class="distributor-section">
-      <div class="distributor-left">
-        <img src="./9.webp" alt="Distributor Layout" />
+  <!-- Access Dashboard Section -->
+  <section class="access-dashboard">
+    <div class="dashboard-wrapper">
+      <div class="dashboard-image">
+        <img src="./11.jpg" alt="Leith">
       </div>
-      <div class="distributor-right">
-        <div class="step-number">1</div>
-        <h2>Choose a distributor</h2>
-        <p>
-          Music gets uploaded to Spotify via a distributor. For a fee or commission,
-          distributors will handle the licensing and distribution to Spotify and other
-          streaming services, and pay you royalties when listeners stream.
-        </p>
-        <p>
-          Check out our directory for our preferred and recommended providers:
-        </p>
-        <button class="browse-btn">Browse directory</button>
+      <div class="dashboard-text">
+        <span class="step-number">3</span>
+        <h2>Access your dashboard</h2>
+        <p>Give a face and name to your music by setting up your profile.</p>
+        <ul>
+          <li><span><i class="fa-solid fa-circle-check"></i></span>Access your artist profile and Spotify for Artists dashboard to track performance and manage content.</li>
+          <li><span><i class="fa-solid fa-circle-check"></i></span>Verify your identity to gain full access and get verified with a checkmark.</li>
+          <li><span><i class="fa-solid fa-circle-check"></i></span>Customize your profile with photos, bio, social media, merch, and playlists.</li>
+        </ul>
+        <button>Access your profile</button>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     </header>
+  <!-- Release Section -->
+  <section class="prepare-section">
+    <div class="prepare-left">
+      <div class="step-number">4</div>
+      <h2>Prepare for release</h2>
+      <p>Ahead of release day, make sure to:</p>
+      <ul>
+        <li><span class="tick-icon"><i class="fa-solid fa-check"></i></span><a href="#">Optimize your artist profile</a>.</li>
+        <li><span class="tick-icon"><i class="fa-solid fa-check"></i></span><a href="#">Pitch our playlist editors</a>.</li>
+        <li><span class="tick-icon"><i class="fa-solid fa-check"></i></span><a href="#">Upload a Canvas</a> to your tracks.</li>
+      </ul>
+      <button class="release-button">Review the release guide</button>
+    </div>
+    <div class="prepare-right">
+      <img src="./12.jpg" alt="Prepare for release" />
+    </div>
+  </section>
 </body>
 </html>
