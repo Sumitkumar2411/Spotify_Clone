@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'spotify';
+    src: url('./SpotifyMix-Regular.ttf');
+  }
+  
+  body {
+    font-family: 'spotify', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #f9f9f9;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: auto;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e50101;
+  }
+  
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .login-btn {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #e50101;
+    transform: scale(1.05);
+  }
+  
+  .access-btn {
+    background: black;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .access-btn:hover {
+    background-color: #e50101;
+    transform: scale(1.05);
+  }
